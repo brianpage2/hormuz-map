@@ -15,8 +15,11 @@ export const metadata: Metadata = {
     template: "%s | 호르무즈 해협 선박 추적",
   },
   description:
-    "호르무즈 해협 실시간 선박 위치 추적 지도. AIS 데이터로 유조선, 컨테이너선, 화물선의 현재 위치를 확인하세요. 한국 에너지 안보에 중요한 중동 해운 정보를 제공합니다.",
+    "호르무즈 실시간 선박 확인 사이트. 호르무즈 해협 선박 실시간 확인 — AIS 데이터로 유조선·컨테이너선 현재 위치를 추적합니다. 한국 에너지 안보에 중요한 중동 해운 정보 제공.",
   keywords: [
+    "호르무즈 실시간 선박 확인",
+    "호르무즈 실시간 선박 확인 사이트",
+    "호르무즈 해협 선박 실시간 확인",
     "호르무즈",
     "호르무즈 해협",
     "실시간 선박 추적",
@@ -33,15 +36,30 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     siteName: "호르무즈 해협 실시간 선박 추적 지도",
-    title: "호르무즈 해협 실시간 선박 추적 지도",
+    title: "호르무즈 실시간 선박 확인 | 호르무즈 해협 선박 실시간 확인",
     description:
-      "호르무즈 해협 실시간 선박 위치 추적. AIS 데이터로 유조선·컨테이너선 현재 위치 확인.",
+      "호르무즈 실시간 선박 확인 사이트. 호르무즈 해협 선박 실시간 확인 — AIS 데이터로 유조선·컨테이너선 현재 위치 추적.",
+    images: [
+      {
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg",
+        width: 1200,
+        height: 800,
+        alt: "호르무즈 해협 위성 지도",
+      },
+      {
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hormuz_Strait_en.svg/1200px-Hormuz_Strait_en.svg.png",
+        width: 1200,
+        height: 857,
+        alt: "호르무즈 해협 지도",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "호르무즈 해협 실시간 선박 추적 지도",
+    title: "호르무즈 실시간 선박 확인 | 호르무즈 해협 선박 실시간 확인",
     description:
-      "호르무즈 해협 실시간 선박 위치 추적. AIS 데이터로 유조선·컨테이너선 현재 위치 확인.",
+      "호르무즈 실시간 선박 확인 사이트. AIS 데이터로 유조선·컨테이너선 현재 위치 추적.",
+    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg"],
   },
   verification: {
     google: "kH_f_H40AB2eRmZe0M1mgAm-8lVP331tL20dAwtbvEk",
