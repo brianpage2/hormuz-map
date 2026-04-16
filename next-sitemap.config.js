@@ -19,5 +19,9 @@ module.exports = {
       { userAgent: "*", allow: "/" },
       { userAgent: "*", disallow: ["/api/"] },
     ],
+    additionalSitemaps: [],
+    transformRobotsTxt: async (_, robotsTxt) => {
+      return robotsTxt + "\n#DaumWebMasterTool:7043c88b54e2949b64c3db0af938f9e289d2e365e9783220b903daea9c28c7e1:sX5P2rLT+4My4l7jrk4xWw==\n";
+    },
   },
 };
