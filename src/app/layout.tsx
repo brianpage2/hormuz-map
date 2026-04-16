@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     description:
       "호르무즈 해협 실시간 선박 위치 추적. AIS 데이터로 유조선·컨테이너선 현재 위치 확인.",
   },
+  verification: {
+    google: "kH_f_H40AB2eRmZe0M1mgAm-8lVP331tL20dAwtbvEk",
+  },
   robots: {
     index: true,
     follow: true,
