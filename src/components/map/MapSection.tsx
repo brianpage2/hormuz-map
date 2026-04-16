@@ -228,8 +228,6 @@ export default function MapSection() {
                 {/* MarineTraffic 프리뷰 카드 */}
                 <a
                   href="https://www.marinetraffic.com/en/ais/home/centerx:56/centery:26/zoom:8"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group rounded-xl overflow-hidden border border-slate-200 shadow-sm transition hover:shadow-md hover:border-blue-300"
                 >
                   {/* 미니 지도 프리뷰 */}
@@ -258,8 +256,6 @@ export default function MapSection() {
                 {/* VesselFinder 프리뷰 카드 */}
                 <a
                   href="https://www.vesselfinder.com/?lat=26&lng=56&zoom=8"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group rounded-xl overflow-hidden border border-slate-200 shadow-sm transition hover:shadow-md hover:border-sky-300"
                 >
                   {/* 미니 지도 프리뷰 */}
