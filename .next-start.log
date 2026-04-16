@@ -1,0 +1,8 @@
+
+> hormuz-map@0.1.0 start
+> next start --port 4100
+
+▲ Next.js 16.2.3
+- Local:         http://localhost:4100
+- Network:       http://192.168.0.5:4100
+✓ Ready in 178ms
