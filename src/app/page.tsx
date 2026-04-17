@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MapSection from "@/components/map/MapSection";
+import AdSenseUnit from "@/components/AdSenseUnit";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -110,6 +111,11 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+      {/* 모바일 전용 광고 — 콘텐츠 최하단 */}
+      <div className="block md:hidden px-4 pb-6">
+        <AdSenseUnit />
+      </div>
 
       <Footer />
     </div>
