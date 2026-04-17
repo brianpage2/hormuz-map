@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     description: "한국 원유 수입 구조, 호르무즈 의존도, 에너지 안보 전략 완전 분석.",
     type: "article",
     locale: "ko_KR",
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
   },
 };
 
@@ -31,6 +32,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "한국 에너지 안보와 호르무즈 해협 — 원유 의존도·대응 전략",
   description: "한국의 원유 수입 구조와 호르무즈 해협 의존도, 에너지 안보 전략 분석.",
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg",
   inLanguage: "ko",
   author: { "@type": "Organization", name: "호르무즈 해협 지도" },
   datePublished: "2026-04-15",

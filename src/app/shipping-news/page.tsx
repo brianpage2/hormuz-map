@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     description: "호르무즈 해협과 중동 해운 최신 뉴스를 한국어로 전합니다.",
     type: "website",
     locale: "ko_KR",
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
   },
 };
 

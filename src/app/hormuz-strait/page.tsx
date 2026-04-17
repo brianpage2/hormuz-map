@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     description: "호르무즈 해협의 지리, 역사, 주요 항구, 통과 항로 상세 가이드.",
     type: "article",
     locale: "ko_KR",
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
   },
 };
 
@@ -31,6 +32,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "호르무즈 해협 정보 — 지리·역사·항로 상세 가이드",
   description: "호르무즈 해협의 지리적 특성, 역사, 주요 항구, 통과 항로, 해저 지형 상세 소개.",
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg",
   inLanguage: "ko",
   author: { "@type": "Organization", name: "호르무즈 해협 지도" },
   datePublished: "2026-04-15",

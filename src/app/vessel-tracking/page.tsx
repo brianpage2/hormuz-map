@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     description: "AIS 실시간 선박 추적 지도 사용법. 선박 색상·팝업 정보 읽는 법 완전 가이드.",
     type: "article",
     locale: "ko_KR",
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 실시간 선박 추적 지도" }],
   },
 };
 

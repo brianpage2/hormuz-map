@@ -26,6 +26,7 @@ export const metadata: Metadata = {
       "세계 원유 20%가 통과하는 호르무즈 해협. 위치·지정학·봉쇄 위험까지 한국어로 완전 정리.",
     type: "article",
     locale: "ko_KR",
+    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
   },
 };
 
