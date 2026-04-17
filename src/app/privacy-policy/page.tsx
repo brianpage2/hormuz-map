@@ -78,16 +78,8 @@ export default function PrivacyPolicyPage() {
                     desc: "방문자 통계 수집. Google의 개인정보처리방침이 적용됩니다.",
                   },
                   {
-                    name: "Google AdSense",
-                    desc: "맞춤형 광고 게재. Google이 쿠키를 사용해 이용자의 관심사 기반 광고를 표시할 수 있습니다.",
-                  },
-                  {
                     name: "aisstream.io",
                     desc: "실시간 AIS 선박 데이터를 제공합니다. 선박 위치 데이터만 처리하며 이용자 개인정보를 수집하지 않습니다.",
-                  },
-                  {
-                    name: "Vercel",
-                    desc: "서비스 호스팅에 Vercel을 사용합니다. 서버 운영에 필요한 최소한의 로그를 수집할 수 있습니다.",
                   },
                 ].map((item) => (
                   <div key={item.name} className="bg-gray-800 rounded-lg p-4 border border-gray-700">
@@ -142,7 +134,7 @@ export default function PrivacyPolicyPage() {
               <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
                 <p className="text-gray-400">개인정보 관련 문의는 아래로 연락해 주세요.</p>
                 <p className="text-gray-400 mt-2">서비스명: 호르무즈 해협 실시간 선박 추적 지도</p>
-                <p className="text-gray-400 mt-1">이메일: privacy@hormuz.codedanswer.com</p>
+                <p className="text-gray-400 mt-1">이메일: brianpage.kr@gmail.com</p>
               </div>
             </section>
 
