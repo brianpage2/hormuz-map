@@ -8,11 +8,15 @@ module.exports = {
   exclude: ["/api/*"],
   additionalPaths: async (config) => [
     await config.transform(config, "/"),
-    await config.transform(config, "/호르무즈"),
-    await config.transform(config, "/호르무즈-해협"),
-    await config.transform(config, "/실시간-선박-추적"),
-    await config.transform(config, "/에너지-안보"),
-    await config.transform(config, "/해운-뉴스"),
+    await config.transform(config, "/hormuz"),
+    await config.transform(config, "/hormuz-strait"),
+    await config.transform(config, "/vessel-tracking"),
+    await config.transform(config, "/energy-security"),
+    await config.transform(config, "/shipping-news"),
+    await config.transform(config, "/hormuz-blockade"),
+    await config.transform(config, "/cheonghae-unit"),
+    await config.transform(config, "/hankuk-chemi"),
+    await config.transform(config, "/privacy-policy"),
   ],
   robotsTxtOptions: {
     policies: [
