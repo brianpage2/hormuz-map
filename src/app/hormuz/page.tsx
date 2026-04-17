@@ -77,7 +77,7 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "홈", item: "https://hormuz.codedanswer.com" },
-        { "@type": "ListItem", position: 2, name: "호르무즈란?", item: "https://hormuz.codedanswer.com/호르무즈" },
+        { "@type": "ListItem", position: 2, name: "호르무즈란?", item: "https://hormuz.codedanswer.com/hormuz" },
       ],
     },
   ],

@@ -3,6 +3,29 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MapSection from "@/components/map/MapSection";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://hormuz.codedanswer.com/#website",
+      url: "https://hormuz.codedanswer.com",
+      name: "호르무즈 해협 실시간 선박 추적 지도",
+      description: "AIS 데이터로 호르무즈 해협을 통과하는 유조선·화물선 실시간 위치를 한국어로 제공",
+      inLanguage: "ko",
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hormuz.codedanswer.com/#webpage",
+      url: "https://hormuz.codedanswer.com",
+      name: "호르무즈 해협 실시간 선박 추적 지도",
+      description: "호르무즈 해협 실시간 선박 위치 추적 지도. AIS 데이터로 유조선, 컨테이너선, 화물선의 현재 위치를 확인하세요.",
+      inLanguage: "ko",
+      isPartOf: { "@id": "https://hormuz.codedanswer.com/#website" },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "호르무즈 해협 실시간 선박 추적 지도",
   description:
@@ -11,6 +34,11 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="min-h-screen bg-gray-900 flex flex-col">
       <Header />
 
@@ -85,5 +113,6 @@ export default function HomePage() {
 
       <Footer />
     </div>
+    </>
   );
 }
