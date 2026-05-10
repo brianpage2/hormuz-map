@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import ScrollToTop from "@/components/ScrollToTop";
+import { Analytics } from "@vercel/analytics/next";
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ["latin"],
@@ -98,6 +99,7 @@ export default function RootLayout({
       <body className={`${notoSansKR.variable} font-sans antialiased bg-gray-900 text-gray-100`}>
         <ScrollToTop />
         {children}
+        <Analytics />
       </body>
     </html>
   );
