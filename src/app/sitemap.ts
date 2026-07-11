@@ -35,13 +35,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/hormuz-blockade`,
+      lastModified: new Date("2026-04-15"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/cheonghae-unit`,
+      lastModified: new Date("2026-04-15"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/hankuk-chemi`,
+      lastModified: new Date("2026-04-15"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/shipping-news`,
       lastModified: new Date("2026-04-15"),
       changeFrequency: "daily",
       priority: 0.8,
     },
     {
-      url: `${BASE_URL}/shipping-news/hormuz-blockade-위험`,
+      url: `${BASE_URL}/shipping-news/hormuz-blockade-risk`,
       lastModified: new Date("2026-04-10"),
       changeFrequency: "monthly",
       priority: 0.6,

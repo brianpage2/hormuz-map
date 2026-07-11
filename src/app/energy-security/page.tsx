@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/energy-security" },
   title: "한국 에너지 안보와 호르무즈 해협 — 원유 의존도·대응 전략",
   description:
     "한국이 왜 호르무즈 해협에 의존할 수밖에 없는지, 원유 수입 구조, 에너지 안보 위협 요인, 정부 대응 전략까지 자세히 알아봅니다.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: "한국 원유 수입 구조, 호르무즈 의존도, 에너지 안보 전략 완전 분석.",
     type: "article",
     locale: "ko_KR",
-    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "호르무즈 실시간 선박 확인" }],
   },
 };
 
@@ -32,7 +33,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "한국 에너지 안보와 호르무즈 해협 — 원유 의존도·대응 전략",
   description: "한국의 원유 수입 구조와 호르무즈 해협 의존도, 에너지 안보 전략 분석.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg",
+  image: "https://hormuz.codedanswer.com/opengraph-image",
   inLanguage: "ko",
   author: { "@type": "Organization", name: "호르무즈 해협 지도" },
   datePublished: "2026-04-15",

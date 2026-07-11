@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/hormuz-blockade" },
   title: "호르무즈 해협 봉쇄 2026 — 한국 경제·원유 영향 완전 분석",
   description:
     "2026년 호르무즈 해협 봉쇄 상황과 한국 경제에 미치는 영향을 분석합니다. 원유 공급 차질, 유가 전망, 한국 선박 현황, 정부 대응 전략을 알아보세요.",

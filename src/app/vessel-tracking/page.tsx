@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/vessel-tracking" },
   title: "실시간 선박 추적 — AIS 지도 사용 방법 완전 가이드",
   description:
     "호르무즈 해협 실시간 선박 추적 지도 사용법. AIS란 무엇인지, 선박 색상 의미, 팝업 정보 읽는 법까지 쉽게 설명합니다. 지금 유조선·화물선 위치를 확인하세요.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: "AIS 실시간 선박 추적 지도 사용법. 선박 색상·팝업 정보 읽는 법 완전 가이드.",
     type: "article",
     locale: "ko_KR",
-    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 실시간 선박 추적 지도" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "호르무즈 실시간 선박 확인" }],
   },
 };
 

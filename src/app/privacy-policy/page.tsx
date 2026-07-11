@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy-policy" },
   title: "개인정보처리방침 - 호르무즈 해협 실시간 선박 추적 지도",
   description: "호르무즈 해협 실시간 선박 추적 지도 서비스의 개인정보처리방침입니다.",
 };

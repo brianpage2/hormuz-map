@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/hankuk-chemi" },
   title: "한국케미호 나포 사건 — 이란의 호르무즈 한국 선박 억류",
   description:
     "2021년 1월 이란 혁명수비대가 호르무즈 해협에서 한국 유조선 MT 한국케미호를 나포한 사건의 전말을 정리합니다. 배경, 경위, 석방 과정, 한국 정부 대응을 알아보세요.",

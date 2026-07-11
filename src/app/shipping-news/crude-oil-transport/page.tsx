@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/shipping-news/crude-oil-transport" },
   title: "2026년 호르무즈 해협 원유 수송 현황 — VLCC 통과 빈도·항로 분석",
   description:
     "2026년 호르무즈 해협 원유 수송 현황. AIS 데이터 기반 VLCC 통과 빈도, 주요 산유국별 수출량, 한국행 유조선 현황을 분석합니다.",

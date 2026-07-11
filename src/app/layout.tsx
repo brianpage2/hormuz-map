@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -10,7 +11,13 @@ const notoSansKR = Noto_Sans_KR({
   display: "swap",
 });
 
+const SITE_URL = "https://hormuz.codedanswer.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "호르무즈 실시간 선박 확인 | 호르무즈 해협 선박 실시간 확인 사이트",
     template: "%s | 호르무즈 실시간 선박 확인",
@@ -42,16 +49,10 @@ export const metadata: Metadata = {
       "호르무즈 실시간 선박 확인 사이트. 호르무즈 해협 선박 실시간 확인 — AIS 데이터로 유조선·컨테이너선 현재 위치 추적.",
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg",
+        url: `${SITE_URL}/opengraph-image`,
         width: 1200,
-        height: 800,
-        alt: "호르무즈 해협 위성 지도",
-      },
-      {
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hormuz_Strait_en.svg/1200px-Hormuz_Strait_en.svg.png",
-        width: 1200,
-        height: 857,
-        alt: "호르무즈 해협 지도",
+        height: 630,
+        alt: "호르무즈 실시간 선박 확인",
       },
     ],
   },
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     title: "호르무즈 실시간 선박 확인 | 호르무즈 해협 선박 실시간 확인",
     description:
       "호르무즈 실시간 선박 확인 사이트. AIS 데이터로 유조선·컨테이너선 현재 위치 추적.",
-    images: ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg"],
+    images: [`${SITE_URL}/opengraph-image`],
   },
   verification: {
     google: "kH_f_H40AB2eRmZe0M1mgAm-8lVP331tL20dAwtbvEk",
@@ -88,16 +89,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className="dark">
-      <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449761611054213"
-          crossOrigin="anonymous"
-        />
-      </head>
       <body className={`${notoSansKR.variable} font-sans antialiased bg-gray-900 text-gray-100`}>
         <ScrollToTop />
         {children}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449761611054213"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

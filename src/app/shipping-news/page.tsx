@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/shipping-news" },
   title: "해운 뉴스 — 호르무즈 해협·중동 해운 최신 소식",
   description:
     "호르무즈 해협과 중동 해운의 최신 뉴스. AIS 선박 추적, 원유 수송 현황, 지정학적 긴장, 해운 시장 동향을 한국어로 전합니다.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: "호르무즈 해협과 중동 해운 최신 뉴스를 한국어로 전합니다.",
     type: "website",
     locale: "ko_KR",
-    images: [{ url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hormuz_strait.jpg/1200px-Hormuz_strait.jpg", width: 1200, height: 800, alt: "호르무즈 해협 위성 사진" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "호르무즈 실시간 선박 확인" }],
   },
 };
 

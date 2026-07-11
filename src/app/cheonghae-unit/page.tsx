@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/cheonghae-unit" },
   title: "청해부대 호르무즈 파병 — 한국 해군 중동 활동 완전 정리",
   description:
     "청해부대의 호르무즈 해협 파병 배경, 임무, 활동 내역을 정리합니다. 2009년부터 아덴만에 파병된 청해부대가 2020년 호르무즈 해협까지 작전 구역을 확대한 경위를 알아보세요.",

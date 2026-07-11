@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/shipping-news/ais-vessel-tracking" },
   title: "AIS 선박 추적의 원리 — 위성 AIS vs 지상 기지국 차이점 완전 이해",
   description:
     "AIS 선박 추적이 작동하는 원리, 위성 AIS와 지상 기지국의 차이, 사각지대 발생 이유, aisstream.io 같은 글로벌 네트워크가 어떻게 이를 보완하는지 설명합니다.",

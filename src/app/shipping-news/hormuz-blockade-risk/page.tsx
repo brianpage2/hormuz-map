@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/shipping-news/hormuz-blockade-risk" },
   title: "호르무즈 해협 봉쇄 위험 — 이란 위협의 현실성과 대응 시나리오",
   description:
     "이란의 호르무즈 해협 봉쇄 위협 현실성 분석. 봉쇄 발생 시 세계 원유 공급, 유가, 한국 경제에 미치는 영향과 대응 시나리오를 살펴봅니다.",
